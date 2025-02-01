@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEACHMATE</title>
+</head>
+<body>
+    <h1>TEACHMATE</h1>
+    <form method="POST">
+        <label for="prompt">Enter your prompt:</label><br>
+        <textarea id="prompt" name="prompt" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Generate Content">
+    </form>
+    
+    {% if generated_content %}
+        <h2> Here is your answer:</h2>
+        <p>{{ generated_content }}</p>
+    {% endif %}
+</body>
+</html>
