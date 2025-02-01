@@ -1,0 +1,9 @@
+openai==0.28             # OpenAI API client for accessing GPT models
+textblob==0.17.1         # Library for processing textual data
+transformers==4.30.0     # Hugging Face Transformers library for NLP tasks
+torch==2.0.1             # PyTorch library for deep learning (if using PyTorch)
+tensorflow==2.12.0       # TensorFlow library for deep learning (if using TensorFlow)
+spacy==3.5.1             # NLP library for advanced text processing
+nltk==3.8.1              # Natural Language Toolkit for text processing
+gradio==3.8.3            # Gradio library for creating UIs for models(optional)
+Flask==2.3.2             # Flask library for creating web applications
